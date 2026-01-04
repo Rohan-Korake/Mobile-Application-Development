@@ -18,22 +18,35 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <TextView
-            android:layout_width="400dp"
+        <Button
+            android:id="@+id/normalButton"
+            android:layout_width="300dp"
             android:layout_height="70dp"
-            android:fontFamily="sans-serif-condensed-medium"
-            android:gravity="center"
-            android:textSize="40sp"
-            android:textColor="#333333"
-            android:text="Text Color #333333"/>
+            android:text="Normal Button"
+            android:textSize="25sp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:src="@drawable/img"/>
 
         <TextView
+            android:id="@+id/textview"
             android:layout_width="400dp"
             android:layout_height="70dp"
-            android:gravity="center"
-            android:textSize="50sp"
-            android:text="Text Size 50sp"/>
+            android:textSize="35sp"
+            android:gravity="center" />
+
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:textSize="35sp"
+            android:textOn="ON"
+            android:textOff="OFF"
+            android:defaultFocusHighlightEnabled="true"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
