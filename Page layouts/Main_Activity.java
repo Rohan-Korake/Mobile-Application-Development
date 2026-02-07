@@ -1,4 +1,4 @@
-package com.example.layouts;
+package com.example.myapplication;
 
 import android.os.Bundle;
 

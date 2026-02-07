@@ -25,11 +25,12 @@
             android:text="Normal Button"
             android:textSize="25sp"/>
 
+        <!-- Copy the provided img.png from the repo and paste it into res/drawable -->
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="400dp"
             android:layout_height="300dp"
-            android:src="@drawable/img"/>
+            android:src="@drawable/img"/> // 
 
         <TextView
             android:id="@+id/textview"
