@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="277dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20% Off"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:src="@drawable/img"/>
+    </FrameLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:text="Item Price"
+                android:padding="10dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:text="₹1,00,00,000"
+                android:padding="10dp"
+                android:textSize="20sp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Tax"
+                android:padding="10dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:text="₹40,00,000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Shipping"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:text="₹1,26,600"
+                android:padding="10dp"
+                android:textSize="20sp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Total"
+                android:padding="10dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:text="₹1,41,26,600"
+                android:padding="10dp"
+                android:textSize="20sp"/>
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnAddToCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to Cart"
+            android:layout_margin="20dp"
+            android:layout_alignParentStart="true"/>
+        <Button
+            android:id="@+id/btnBuyNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy Now"
+            android:layout_margin="20dp"
+            android:layout_toEndOf="@id/btnAddToCart"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Get your Dodge Challenger in just 30–45 days!"/>
+</LinearLayout>
