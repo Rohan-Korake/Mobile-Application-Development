@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="275dp"
+            android:src="@drawable/home" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOTEL"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="THE"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUNSET"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:lineSpacingExtra="6dp"
+            android:padding="16dp"
+            android:text="A refined retreat where modern design meets tranquil surroundings, offering breathtaking sunsets and effortless comfort."
+            android:textSize="16sp" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/bedroom" />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/pool" />
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/hall" />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/dinner" />
+
+        </GridLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The home features a spacious pool hall for fun and social gatherings, a warm dining room perfect for family meals and shared moments, and a peaceful bedroom designed for rest, privacy, and relaxation."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:padding="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotel Rating"
+            android:textSize="25sp"
+            android:padding="16dp"
+            android:gravity="center"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Standard Room"
+                    android:textSize="16sp"
+                    android:padding="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="₹2,000/Night"
+                    android:textSize="16sp"
+                    android:padding="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Available"
+                    android:textSize="16sp"
+                    android:padding="16dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Deluxe Room"
+                    android:textSize="16sp"
+                    android:padding="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="₹3,500/Night"
+                    android:textSize="16sp"
+                    android:padding="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Available"
+                    android:textSize="16sp"
+                    android:padding="16dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Super Deluxe"
+                    android:textSize="16sp"
+                    android:padding="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="₹5,500/Night"
+                    android:textSize="16sp"
+                    android:padding="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Limited"
+                    android:textSize="16sp"
+                    android:padding="16dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Suite Room"
+                    android:textSize="16sp"
+                    android:padding="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="₹8,000/Night"
+                    android:textSize="16sp"
+                    android:padding="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="UnAvailable"
+                    android:textSize="16sp"
+                    android:padding="16dp" />
+            </TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please follow hotel policies and carry valid ID during check-in."
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center"/>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
