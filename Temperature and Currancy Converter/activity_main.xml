@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Temperature Convertor"
+           android:gravity="center"
+           android:textSize="20sp"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <EditText
+           android:id="@+id/inputTemp"
+           android:layout_width="350dp"
+           android:layout_height="40dp"
+           android:layout_margin="10dp"
+           android:gravity="center"/>
+
+       <Button
+           android:id="@+id/fahrenheit"
+           android:layout_width="350dp"
+           android:layout_height="60dp"
+           android:text="Celsius to Fahrenheit"
+           android:textSize="20sp"/>
+
+       <Button
+           android:id="@+id/celsius"
+           android:layout_width="350dp"
+           android:layout_height="60dp"
+           android:text="Fahrenheit to Celsius"
+           android:textSize="20sp"/>
+
+
+       <TextView
+           android:id="@+id/outputTemp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:gravity="center"
+           android:textSize="20sp"
+           android:layout_marginTop="30dp"/>
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Currency Convertor"
+           android:gravity="center"
+           android:textSize="20sp"
+           android:layout_marginTop="30dp"/>
+
+       <EditText
+           android:id="@+id/inputMoney"
+           android:layout_width="350dp"
+           android:layout_height="40dp"
+           android:layout_margin="10dp"
+           android:gravity="center"/>
+
+       <Button
+           android:id="@+id/usd"
+           android:layout_width="350dp"
+           android:layout_height="60dp"
+           android:text="Indian Rupees to US Dollars"
+           android:textSize="20sp"/>
+
+       <Button
+           android:id="@+id/inr"
+           android:layout_width="350dp"
+           android:layout_height="60dp"
+           android:text="US Dollars to Indian Rupees"
+           android:textSize="20sp"/>
+
+       <TextView
+           android:id="@+id/outputMoney"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:gravity="center"
+           android:textSize="20sp"
+           android:layout_marginTop="30dp"/>
+   </LinearLayout>
+    
+</androidx.constraintlayout.widget.ConstraintLayout>

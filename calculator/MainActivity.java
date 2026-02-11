@@ -132,7 +132,6 @@ public class MainActivity extends AppCompatActivity {
 
         return result;
     }
-
     // calculate
     public void calculate(View view) {
 
